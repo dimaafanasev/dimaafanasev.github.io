@@ -7,6 +7,14 @@ body {
   	color: #000;
 }
 
+/* for ios */
+
+input,
+button {
+    -webkit-appearance: none;
+}
+
+
 *,
 ::before,
 ::after {
@@ -774,6 +782,7 @@ a {
 }
 
 .services-block {
+	width: 100%;
 	background-color: #e5e5e5;
 	padding-bottom: 69px;
 }
@@ -1071,6 +1080,7 @@ button.map img {
 /* FOOTER */
 
 .footer {
+	width: 100%;
     font-family: "Open Sans", Arial, sans-serif;
     font-size: 15px;
     line-height: 36px;
