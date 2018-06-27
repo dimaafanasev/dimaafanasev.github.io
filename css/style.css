@@ -413,6 +413,7 @@ template {
 }
 
 body {
+	min-width: 1200px;
 	margin: 0;
 	font-family: "Open Sans", Arial, sans-serif;
 	font-size: 15px;
